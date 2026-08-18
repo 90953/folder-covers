@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111914"/><stop offset="1" stop-color="#06100b"/></linearGradient>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7d3cff"/><stop offset="1" stop-color="#d45cff"/></linearGradient>
+    <linearGradient id="r" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff4c43"/><stop offset="1" stop-color="#7a1023"/></linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#36ceff"/><stop offset="1" stop-color="#1559ce"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="13" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1000" height="1000" rx="84" fill="url(#bg)"/>
+  <path d="M0 130C220 50 410 180 600 110s280-20 400-95" fill="none" stroke="#1ed760" stroke-width="4" opacity=".55" filter="url(#glow)"/>
+  <text x="90" y="140" fill="#fff" font-family="Arial, sans-serif" font-size="76" font-weight="700">Folder Covers</text>
+  <text x="94" y="193" fill="#a7b6ab" font-family="Arial, sans-serif" font-size="30">Custom artwork for your Spotify folders</text>
+  <g transform="translate(90 285)">
+    <rect width="820" height="150" rx="30" fill="#1b2620"/>
+    <path d="M46 50h57l22 22h90v48a20 20 0 0 1-20 20H46a20 20 0 0 1-20-20V70a20 20 0 0 1 20-20z" fill="url(#p)"/>
+    <text x="255" y="87" fill="#fff" font-family="Arial, sans-serif" font-size="39" font-weight="700">Your Favourites</text><text x="255" y="122" fill="#a7b6ab" font-family="Arial, sans-serif" font-size="26">12 playlists</text>
+  </g>
+  <g transform="translate(90 475)">
+    <rect width="820" height="150" rx="30" fill="#1b2620"/>
+    <path d="M46 50h57l22 22h90v48a20 20 0 0 1-20 20H46a20 20 0 0 1-20-20V70a20 20 0 0 1 20-20z" fill="url(#r)"/>
+    <text x="255" y="87" fill="#fff" font-family="Arial, sans-serif" font-size="39" font-weight="700">Late Night</text><text x="255" y="122" fill="#a7b6ab" font-family="Arial, sans-serif" font-size="26">8 playlists</text>
+  </g>
+  <g transform="translate(90 665)">
+    <rect width="820" height="150" rx="30" fill="#1b2620"/>
+    <path d="M46 50h57l22 22h90v48a20 20 0 0 1-20 20H46a20 20 0 0 1-20-20V70a20 20 0 0 1 20-20z" fill="url(#b)"/>
+    <text x="255" y="87" fill="#fff" font-family="Arial, sans-serif" font-size="39" font-weight="700">Summer</text><text x="255" y="122" fill="#a7b6ab" font-family="Arial, sans-serif" font-size="26">6 playlists</text>
+  </g>
+  <circle cx="900" cy="900" r="40" fill="#1ed760"/><path d="m886 900 11 11 22-25" fill="none" stroke="#07150b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
