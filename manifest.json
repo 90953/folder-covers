@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Folder Covers",
+    "description": "Add custom cover images to Spotify playlist folders.",
+    "preview": "marketplace-preview.svg",
+    "main": "folder-covers.js",
+    "readme": "README.md",
+    "authors": [
+      {
+        "name": "90953",
+        "url": "https://github.com/90953"
+      }
+    ],
+    "tags": ["library", "folders", "customization"]
+  }
+]
